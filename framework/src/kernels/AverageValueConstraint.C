@@ -90,6 +90,6 @@ AverageValueConstraint::computeQpOffDiagJacobianScalar(unsigned int /*jvar*/)
   // here we simply return zero. For more information on this, see the
   // detailed writeup [0].
   //
-  // [0]: https://github.com/idaholab/large_media/blob/master/scalar_constraint_kernel.pdf
+  // [0]: https://github.com/idaholab/large_media/blob/master/framework/scalar_constraint_kernel.pdf
   return 0.;
 }
